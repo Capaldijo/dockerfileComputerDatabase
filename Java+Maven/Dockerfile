@@ -6,7 +6,7 @@
 #
 
 # Pull base image.
-FROM dockerfileComputerDatabase/Ubuntu
+FROM dockerfilecomputerdatabase/ubuntu
 
 # Install Java.
 RUN \
