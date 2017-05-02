@@ -22,5 +22,5 @@ RUN \
 ENV JAVA_HOME /usr/lib/jvm/java-8-oracle
 
 # Define maven path variable
-M2_HOME="/usr/local/apache-maven/apache-maven-3.0.3"
-M2=$M2_HOME/bin
+ENV M2_HOME="/usr/local/apache-maven/apache-maven-3.0.3"
+ENV M2=$M2_HOME/bin
