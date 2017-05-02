@@ -6,7 +6,7 @@
 #
 
 # Pull base image.
-FROM dockerfilecomputerdatabase/ubuntu
+FROM capaldijo/ubuntu
 
 # Install Java.
 RUN \
