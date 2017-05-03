@@ -2,7 +2,7 @@
 
 #default values
 IMAGE="capaldijo/mysql"
-NAME="computer-database"
+NAME="mysql"
 PASSWORD="root"
 UP=$(pgrep mysql | wc -l)
 
