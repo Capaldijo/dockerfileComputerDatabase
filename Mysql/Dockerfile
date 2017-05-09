@@ -15,8 +15,7 @@ RUN apt-get update && \
   apt-get -yq install mysql-server && \
   rm -rf /var/lib/apt/lists/*
 
-ADD files/bind_0.cnf /etc/mysql/conf.d/bind_0.cnf
-ADD files/mysql.cnf /etc/mysql/mysql.cnf
+ADD files/myConf.cnf /etc/mysql/conf.d/bind_0.cnf
 
 ADD scripts/init.sh /init.sh
 RUN chmod 755 /*.sh

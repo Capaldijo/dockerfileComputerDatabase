@@ -1,3 +1,0 @@
-[mysqld]
-# Basic Settings
-sql_mode = "NO_ENGINE_SUBSTITUTION"
